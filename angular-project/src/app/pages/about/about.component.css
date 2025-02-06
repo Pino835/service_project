@@ -1,0 +1,19 @@
+.bg-image {
+    background-image: url('https://images.template.net/376948/Galaxy-Gaming-Background-edit-online-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 88vh;
+  }
+
+@keyframes neonGlow {
+    0% { text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; }
+    50% { text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; }
+    100% { text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; }
+  }
+  
+.neon-text {
+    color: #fff;
+    animation: neonGlow 1.5s infinite alternate;
+  }

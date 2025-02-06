@@ -1,0 +1,19 @@
+.bg-image {
+    background-image: url('https://lh3.googleusercontent.com/b9ZbTwtj182RJEweq-MxfqhSk9KLP4J_UYdtU4653V0nWVJ2F0Ko3MbT_mwqG-bwK5giuCB1LEy1d3vnDUy_obDyLg=s1280-w1280-h800');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 88vh;
+  }
+
+@keyframes neonGlow {
+    0% { text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; }
+    50% { text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; }
+    100% { text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff; }
+  }
+  
+  .neon-text {
+    color: #fff;
+    animation: neonGlow 1.5s infinite alternate;
+  }
